@@ -31,3 +31,5 @@ predictions = linear.predict(x_test)
 # the first value should be the prediction for the score of the student based on the data (Grade, studytime, failures, absences, and final score)
 for x in range (len(predictions)) :
     print(predictions[x], x_test[x], y_test[x])
+
+#adding this comment to test the branch push
